@@ -13,6 +13,11 @@ var correct="";
 var incorrect="";
 var unanswered="";
 
+function myFunction() {
+    var x = document.getElementById("myRadio");
+    x.checked = true;
+}
+
 function startGame (){
 
 }
